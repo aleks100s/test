@@ -19,10 +19,11 @@ public static void main(String[] args)
 		{
 			console.format("I found the text \"%s\" starting at (%d) and ending at (%d).\n", matcher.group(), matcher.start(), matcher.end());
 			found = true;
-			System.out.print("regex");
 		}
 		if (!found)
 		{
+						System.out.print("regex");
+
 			console.format("No match found.\n");
 		}
 	}
