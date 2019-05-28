@@ -22,7 +22,7 @@ public static void main(String[] args)
 		}
 		if (!found)
 		{
-						System.out.print("regex");
+			System.out.print("regexp");
 
 			console.format("No match found.\n");
 		}
